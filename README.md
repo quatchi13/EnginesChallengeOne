@@ -13,4 +13,8 @@ A and D to move left and right
 Space to jump
 (that's it :) )
 
+Written explinations are in the explinations folder
+
+Flowchart is in the flowchart images folder
+
 build avaliable in release :D
