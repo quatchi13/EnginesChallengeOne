@@ -1,0 +1,13 @@
+Command is not fully implemented into the game.
+
+I focused the use of command not onto the bricks as those remain broken even between the two unique players to allow for collaboration
+as levels progress.
+
+Instead I wanted to use command to Undo the deletion of icicles.
+
+Hypothetically when the player would run out of lives and the second player would be starting their turn within Start()
+all the icicles that was removed would be replaced.
+
+The undo command allow the game to only replace those iciles that were actually removed rather than overriting all icicles.
+
+this can slightly optimise performance and postpone the memory issues that would come from the creation and deletion of objects.

@@ -1,0 +1,13 @@
+The Observer would be used to monitor when the player reaches a high evnough altitude to activate the bonus stage (8 levels high).
+
+A simple StartBonusStage() event would exist that would lock the cameras height (no longer following the player as they ascend),
+and spawn the bonus fruits for the player to collect.
+
+
+The Subject class would hold a list of all those listening for its notifications, whe the player reaches the required altitude
+te class will begin it's Notify() function
+
+the Notify() fuction cycles through all those Observers listening to the Subject and calls each of their OnNotify() Functions
+
+Upon having their OnNotify() function called the observer would activate the prior mentioned StartBonusStage() to begin
+the related events.

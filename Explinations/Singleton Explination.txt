@@ -1,0 +1,12 @@
+The Health Management Singleton doesn't manage health, but rather lives.
+It keeps track of the current number of lives at all times.
+
+It contains to functions: Damage(int) and Heal(int)
+
+Calling Damage will remove the passed value from the current lives count.
+
+Calling heal will add the passed value to th current lives count
+
+If the lives ever reach or go below 0 the player will be destroyed.
+
+This gives the game a losing state (although it doesn't have a way to restart implemented)
