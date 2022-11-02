@@ -17,4 +17,4 @@ Written explinations are in the explinations folder
 
 Flowchart is in the flowchart images folder
 
-build avaliable in release :D
+build avaliable in executables folder or as a release :D
